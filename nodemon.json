@@ -1,0 +1,12 @@
+{
+    "watch": ["src", "index.js"],       
+    "ext": "js,json",                   
+    "ignore": ["node_modules"],         
+    "exec": "node index.js",            
+    "delay": "1000",                    
+    "restartable": "rs",                
+    "env": {
+      "NODE_ENV": "development"
+    }
+  }
+  
